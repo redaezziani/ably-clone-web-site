@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 @import url('path/to/your/stylesheet.css');
@@ -13,13 +13,17 @@ body {
 @tailwind utilities;
 
 
-    body {
-       font-family: 'Inter', sans-serif;
-    }
+body {
+    font-family: 'Inter', sans-serif;
+}
 
 
 @layer components {
     body {
         @apply bg-primary;
     }
+}
+
+.bg-gradient-to-t {
+    background-image: linear-gradient(to top,  #f48e0034 10%,transparent  90%);
 }
